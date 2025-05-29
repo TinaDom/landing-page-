@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  padding: 1em 2em;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  text-align: center;
+}
+
+.input input {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 300px;
+  max-width: 80%;
+}
+
+.buttons button {
+  margin: 0 0.5em;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+}
